@@ -1,3 +1,5 @@
+// In HTML, there is <iframe> with video for Vimeo player. Write a script that will save the current video playback time to local storage and, upon page reload, continue to play the video from that time.
+
 import throttle from "lodash.throttle";
 
 const iframe = document.querySelector('iframe');
